@@ -14,6 +14,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.quickswitch_lawnchair_shipped=0
 endif
 
+PRODUCT_PACKAGES += \
+    SearchHelper
+
 TARGET_PREBUILT_BCR ?= true
 
 # Basic call recorder
